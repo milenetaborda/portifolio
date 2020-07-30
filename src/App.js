@@ -1,0 +1,21 @@
+import React from 'react';
+import GlobalStyles from './styles/global';
+
+import Welcome from './components/Welcome';
+import About from './components/About';
+import MyResume from './components/MyResume';
+import MyWorks from './components/MyWorks';
+
+function App() {
+  return (
+    <>
+      <Welcome />
+      <About />
+      <MyResume />
+      <MyWorks />
+      <GlobalStyles />
+    </>
+  );
+}
+
+export default App;
