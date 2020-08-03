@@ -37,13 +37,8 @@ export const Container = styled.div`
       color: black;
 
       img {
-        width: 10%;
-        height: 10px;
-
-        div{
-          position: absolute;
-          color: black;
-        }
+        width: 100%;
+        height: 100%;
       }
     }
   }
