@@ -12,7 +12,9 @@ export default function About() {
      <div>
        <main>
           <h1> <AiOutlineLine /> Sobre mim</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repudiandae magnam tenetur autem nobis delectus inventore provident quae aut possimus error hic incidunt consectetur culpa nemo quibusdam, ipsa assumenda labore.</p>
+          <p>Sou aluna de Desenvolvimente Web Full Stack na instituição Labenu, onde busco aprimorar constantemente meus conhecimentos e aptidões na área de tecnologia. Possuo experiência em programação funcional, Javascript, React, Redux, Node.js, Typescript, SQL. </p>
+       
+          <strong>NodeJS | MySQL | HTML | CSS | Javascript</strong>
        </main>
       <button type="submit">Download CV</button>
      </div>

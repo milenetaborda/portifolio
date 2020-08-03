@@ -1,33 +1,47 @@
 import React, { Component } from 'react';
-
-import { Container } from './styles';
+import { Container, Button } from './styles';
 
 export default class MyWorks extends Component {
-  constructor(props) {
     state = {
-      works: []
+      works: [],
+      tags: "all"
     }
-  }
+  
+    componentDidMount() {
+      const result = require('../../server.json')
+      this.setState({ works: result.works })
+    }
 
-  render() {
+    setFilter= (tag) => {
+      this.setState({ tags: tag })
+    }
+
+   render() {
+    const { works, tags } = this.state;
+
+    const filterWorks = tags === "all" ? works :  works.filter(work => work.tag === tags );   
+
     return (
-      <Container>
+      <Container id="projects">
         <h3>Meu portfolio</h3>
       <h1>Meus recentes trabalhos</h1>
 
       <div>
-        <ul>
-           <li><button type="submit">Todos</button></li>
-          <li><button type="submit" >Front end</button></li>
-          <li><button type="submit" >Back end</button></li> 
+        <ul >
+           <li><Button type="submit" selected={tags === "all" } onClick={() => this.setFilter("all")} >Todos</Button></li>
+          <li><Button type="submit" selected={tags === "frontend" } onClick={() => this.setFilter("frontend")}  >Front end</Button></li>
+          <li><Button type="submit" selected={tags === "backend" } onClick={() => this.setFilter("backend")}  >Back end</Button></li> 
         </ul>
       </div>
-
+      
       <ul>
-        <li>a</li>
-        <li>b</li>
-        <li>c</li>
+      {filterWorks.map(work => (
+        <li><img src={work.image} alt=""/></li>
+      ))} 
       </ul>
+
+      <button> Mais projetos</button>
+
       </Container>
     )
   }

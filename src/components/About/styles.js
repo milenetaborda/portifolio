@@ -9,7 +9,7 @@ export const Container = styled.div`
     width: 20vw;
     height: 20vw;
     margin: 0  35px;
-    box-shadow: 8px 8px 1px 1px orange;
+    box-shadow: 8px 8px 1px 1px  #cc7f39;
   }
 
   div {
@@ -26,11 +26,14 @@ export const Container = styled.div`
 
       p {
         line-height: 22px;
+        margin-bottom: 25px;
       }
 
       h1 > svg {
-        color: orange;
+        color:  #cc7f39;
       }
+
+     
     }
   }
 
@@ -38,7 +41,21 @@ export const Container = styled.div`
     border: none;
     padding: 8px 12px;
     border-radius: 12px;
-    background-image: linear-gradient(to right, orange, #ff8303);
+    background: linear-gradient(to right, #c79864, #cc7f39);
     width: 170px;
   }
+
+  @media only screen and (max-width: 1018px) {
+     display: block;
+     text-align: center;
+
+     img {
+        margin: 15px auto;
+     }
+
+     button {
+       margin: 15px auto 0;
+     }
+
+    }
 `

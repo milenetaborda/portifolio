@@ -10,23 +10,23 @@ function Welcome() {
       <header>
         <img src={Logo} />
         <section>
-          <button>Projetos</button>
-          <Button>Contato</Button>
+          <Button ><a href="#projects">Projetos</a></Button>
+          <Button ><a href="#contact">Contato</a></Button>
         </section>
       </header>
         <div>
           <span></span> 
   
           <section>
-          <h2>Olá, eu sou Milene</h2>
+          <h2>Olá, me chamo Milene</h2>
             <h1>Sou <span>Web FullStack </span> Development</h1>
-            <h6>Está a procura de um desenvolvedor para fazer parte de sua equipe?</h6>
+            <h6> Apaixonada pelas melhores tecnologias de desenvolvimento e programação.</h6>
             <article></article>
           
           <ul>
-            <li><FaFacebook /></li>
-            <li><FaGithub /></li>
-            <li><FaLinkedinIn /></li>
+            <li><a  href="https://www.facebook.com/milene.taborda" target="_blank"><FaFacebook  /></a></li>
+            <li><a href="https://github.com/milenetaborda" target="_blank"><FaGithub /></a></li>
+            <li><a href="https://www.linkedin.com/in/milene-taborda/" target="_blank"><FaLinkedinIn /></a></li>
           </ul>
           </section>
         </div>

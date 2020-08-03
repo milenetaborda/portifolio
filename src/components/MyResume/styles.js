@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   background: #030303;
   padding: 65px 15vw 50px;
-  max-height: 100%;
+  min-height: 100vh;
 
   h3 {
     text-transform: uppercase;
@@ -18,7 +18,8 @@ export const Container = styled.div`
       display: flex;
 
       > p {
-        background: orange;
+        background: #cc7f39;
+        border: none;
         border-radius: 50%;
         width: 30px;
         height: 30px;
@@ -35,7 +36,7 @@ export const Container = styled.div`
       margin: 0 25px 25px;
       padding: 10px;
       box-shadow: 0px 0px 8px 5px #060606;
-      border-left: 2px solid orange;
+      border-left: 2px solid #cc7f39;
       opacity: 0.8;     
 
       h1 {
@@ -43,7 +44,7 @@ export const Container = styled.div`
       }
 
       strong {
-        color: orange;
+        color: #cc7f39;
 
         > span {
           color: lightgray;
@@ -54,6 +55,7 @@ export const Container = styled.div`
         margin: 10px 0;
         border-top: 1px solid lightgray;
         padding: 5px;
+        text-align: justify;
       }
     }
   }

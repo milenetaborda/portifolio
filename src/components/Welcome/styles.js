@@ -1,10 +1,15 @@
 import styled from 'styled-components';
 import { darken } from 'polished';
 
+import photo from '../../assets/photome.png'
+
 export const Container = styled.div`
-    padding: 0 10vw;
+    padding: 0 10vh;
     min-height: 100vh;
-    background: #030303;
+   background-image: url(${photo}); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position-x: unset;
 
     header {
      padding: 15px 50px;
@@ -39,6 +44,7 @@ export const Container = styled.div`
       h6 {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 500;
+        font-size: 16px;  
       }
 
       > span {
@@ -46,7 +52,7 @@ export const Container = styled.div`
         left: 0;
         margin: -0.8vw 15vw;
         width: 50px;
-        border-bottom: 2px solid orange;
+        border-bottom: 2px solid  #cc7f39;
       }
 
       section {
@@ -59,30 +65,26 @@ export const Container = styled.div`
         }
 
       h1 > span {
-          color:  orange;
+          color:   #cc7f39;
       }
-
-      /* article {
-        position: absolute;
-        width: 300px;
-        height: 400px;
-        border: 2px solid orange;
-        left: 45vw;
-        top: 20vh;
-      } */
 
       ul {
         display: flex;
 
         li {
-          border: 1px solid rgba(220, 220, 220, 0.4);
+          border: 1px solid rgba(220, 220, 220, 0.1);
           padding: 7px 10px;
           border-radius: 50%;
-          margin: 20px 10px;
+          margin: 40px 10px 0;
           cursor: pointer;
 
+          a {
+            text-decoration: none;
+            color: #fff;
+          }
+ 
           :hover {
-            background: ${darken(0.03, 'orange' )};
+            background: ${darken(0.03, '#cc7f39' )};
           }
         }
       }
@@ -92,12 +94,26 @@ export const Container = styled.div`
 `;
 
 export const Button  = styled.button`
-  padding: 5px 10px;
-  margin: 0 5px;
-  background: orange;
-  border: none;
+    background: transparent;
+    padding: 14px 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    border: none;
+    border-radius: 24px;
+    outline: none;
+    cursor: pointer;
+    
 
-  :hover {
-    background: darken(0.5, "orange")
-  }
+    :nth-child(2) {
+      background: linear-gradient(to right, #c79864, #cc7f39);
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
 `

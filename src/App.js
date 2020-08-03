@@ -5,6 +5,7 @@ import Welcome from './components/Welcome';
 import About from './components/About';
 import MyResume from './components/MyResume';
 import MyWorks from './components/MyWorks';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <MyResume />
       <MyWorks />
+      <Contact />
       <GlobalStyles />
     </>
   );
