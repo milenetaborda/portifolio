@@ -36,7 +36,7 @@ export default class MyWorks extends Component {
       
       <ul>
       {filterWorks.map(work => (
-        <li><img src={work.image} alt=""/></li>
+        <li><img src={work.image} alt=""> <div>oi</div></img></li>
       ))} 
       </ul>
 
