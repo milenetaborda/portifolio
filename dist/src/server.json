@@ -1,0 +1,25 @@
+{
+  "works": [
+    {
+      "id": 1,
+      "title": "Astromatch",
+      "tag": "frontend",
+      "image": "https://user-images.githubusercontent.com/57155587/79593201-7e045000-80b1-11ea-8daa-77b4dfaf4e48.png",
+      "repository": ""
+    },
+    {
+      "id": 2,
+      "title": "4eddit",
+      "tag": "frontend",
+      "image": "https://i.redd.it/m1pd3gtxch431.jpg",
+      "repository": ""
+    },
+    {
+      "id": 3,
+      "title": "LabenuSystem",
+      "tag": "backend",
+      "image": "https://www.stockton.edu/wellness-center/disability-services/images/system_information1600.png",
+      "repository": ""
+    }
+  ]
+}
