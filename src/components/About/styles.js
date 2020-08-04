@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin: 15vh 15vw ;
+  padding: 15vh 15vw ;
   display: flex;
   text-align: justify;
 

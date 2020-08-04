@@ -5,21 +5,24 @@
       "title": "Astromatch",
       "tag": "frontend",
       "image": "https://user-images.githubusercontent.com/57155587/79593201-7e045000-80b1-11ea-8daa-77b4dfaf4e48.png",
-      "repository": ""
+      "description": "Realizar integração com a API Astro Match para criar um clone do Tinder usando Redux.",
+      "repository": "https://github.com/milenetaborda/astromatch"
     },
     {
       "id": 2,
       "title": "4eddit",
       "tag": "frontend",
       "image": "https://i.redd.it/m1pd3gtxch431.jpg",
-      "repository": ""
+      "description": "Implementar uma rede social com cadastro, login, posts, likes e comentários. Para isso, iremos nos basear no reddit.com.",
+      "repository": "https://github.com/milenetaborda/4eddit"
     },
     {
       "id": 3,
       "title": "LabenuSystem",
       "tag": "backend",
       "image": "https://www.stockton.edu/wellness-center/disability-services/images/system_information1600.png",
-      "repository": ""
+      "description": "Sistema de gerenciamento de estudantes, docentes e turmas organização Labenu.",
+      "repository": "https://github.com/milenetaborda/labenuSystem"
     }
   ]
 }

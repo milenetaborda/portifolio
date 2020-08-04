@@ -34,13 +34,26 @@ export default class MyWorks extends Component {
         </ul>
       </div>
       
-      <ul>
-      {filterWorks.map(work => (
-        <li><img src={work.image} alt=""/></li>
-      ))} 
-      </ul>
+      <div className="container">
+        {filterWorks.map(work => (
+          <a  href={work.repository} target="_blank">
+          <div className="box">
+            <div className="imgBox">
+              <img src={work.image} alt=""/>
+            </div>
 
-      <button> Mais projetos</button>
+            <div className="details">
+              <div className="content">
+                <h2>{work.title}</h2>
+                <p>{work.description}</p>
+              </div>
+            </div>
+           </div>
+           </a>
+        ))}
+      </div>
+
+      <button ><a  href="https://github.com/milenetaborda?tab=repositories" target="_blank"> Mais projetos </a></button>
 
       </Container>
     )

@@ -8,7 +8,7 @@ export default function MyResume() {
   return (
     <Container>
      <h3>Meu resumo</h3>
-     <h1>Formação acadêmica</h1>
+     <h1>Formação acadêmica / Especialização</h1>
 
      <ul>
        <li>
@@ -27,7 +27,6 @@ export default function MyResume() {
             <strong>2019 - 2024 <span> | Uninter </span></strong>
             <p>O curso forma engenheiros da computação para o mercado, com atuação em indústria, comércio, saúde e no mercado financeiro. Não apenas projetando sistemas de software e hardware, mas desenvolvendo soluções com tecnologias voltadas ao uso de redes neurais (inteligência artificial), estatística, eletrônica e programação. </p>
          </div>
-       
        </li>
 
        <li>
