@@ -1,11 +1,12 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   min-height: 85%;
-  padding: 65px 10vw 0 ;
+  padding: 65px 10vw 0;
   text-align: center;
 
-  h3, h1 {
+  h3,
+  h1 {
     text-align: left;
   }
 
@@ -14,14 +15,14 @@ export const Container = styled.div`
   }
 
   div {
-      display: flex;
-      justify-content: center;
+    display: flex;
+    justify-content: center;
 
-     ul {
+    ul {
       display: flex;
       justify-content: center;
-      margin: 35px  25vw 0; 
-      min-width: 480px; 
+      margin: 35px 25vw 0;
+      min-width: 480px;
       padding: 8px 10px;
       border-radius: 24px;
       box-shadow: 1px 1px 10px 5px #191919;
@@ -32,11 +33,11 @@ export const Container = styled.div`
       }
     }
   }
- 
+
   .container {
     width: 100%;
-    min-height: 100%; 
-    margin: 70px  0;
+    min-height: 100%;
+    margin: 70px 0;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -68,9 +69,9 @@ export const Container = styled.div`
         left: 10px;
         bottom: 10px;
         right: 10px;
-        background: rgba(0, 0, 0, .8);
+        background: rgba(0, 0, 0, 0.8);
         transform: scaleY(0);
-        transition: transform .5s;
+        transition: transform 0.5s;
 
         .content {
           display: block;
@@ -85,7 +86,7 @@ export const Container = styled.div`
             margin: 0;
             padding: 0;
             font-size: 20px;
-            color:  #cc7f39;
+            color: #cc7f39;
           }
 
           p {
@@ -96,15 +97,15 @@ export const Container = styled.div`
       }
 
       :hover {
-          .imgBox img {
-            opacity: 0.9;
-            transform: scale(1.1);
-          }
-
-          .details {
-            transform: scaleY(1);
-          }
+        .imgBox img {
+          opacity: 0.9;
+          transform: scale(1.1);
         }
+
+        .details {
+          transform: scaleY(1);
+        }
+      }
     }
   }
 
@@ -124,18 +125,21 @@ export const Container = styled.div`
       color: #fff;
     }
   }
-`
+`;
 
-export const Button  = styled.button`
-  background: ${ (props) => props.selected ? "linear-gradient(to right, #c79864, #cc7f39)" : "transparent"};
+export const Button = styled.button`
+  background: ${(props) =>
+    props.selected
+      ? "linear-gradient(to right, #c79864, #cc7f39)"
+      : "transparent"};
   border: none;
-  padding: 10px ;
+  padding: 10px;
   font-weight: 600;
   line-height: 1;
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
   cursor: pointer;
   color: #fff;
   font-size: 13px;
   border-radius: 24px;
   text-transform: uppercase;
-`
+`;

@@ -1,15 +1,15 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
-  padding: 15vh 15vw ;
+  padding: 15vh 15vw;
   display: flex;
   text-align: justify;
 
   img {
     width: 20vw;
     height: 20vw;
-    margin: 0  35px;
-    box-shadow: 8px 8px 1px 1px  #cc7f39;
+    margin: 0 35px;
+    box-shadow: 8px 8px 1px 1px #cc7f39;
   }
 
   div {
@@ -18,7 +18,7 @@ export const Container = styled.div`
     justify-content: space-between;
 
     main {
-      h1{
+      h1 {
         font-size: 25px;
         text-transform: uppercase;
         margin-bottom: 10px;
@@ -30,10 +30,8 @@ export const Container = styled.div`
       }
 
       h1 > svg {
-        color:  #cc7f39;
+        color: #cc7f39;
       }
-
-     
     }
   }
 
@@ -47,16 +45,15 @@ export const Container = styled.div`
   }
 
   @media only screen and (max-width: 1018px) {
-     display: block;
-     text-align: center;
+    display: block;
+    text-align: center;
 
-     img {
-        margin: 15px auto;
-     }
-
-     button {
-       margin: 15px auto 0;
-     }
-
+    img {
+      margin: 15px auto;
     }
-`
+
+    button {
+      margin: 15px auto 0;
+    }
+  }
+`;

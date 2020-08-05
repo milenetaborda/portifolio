@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   background: #030303;
@@ -31,25 +31,25 @@ export const Container = styled.div`
         }
       }
 
-      div{
-      background: #171717;
-      margin: 0 25px 25px;
-      padding: 10px;
-      box-shadow: 0px 0px 8px 5px #060606;
-      border-left: 2px solid #cc7f39;
-      opacity: 0.8;     
+      div {
+        background: #171717;
+        margin: 0 25px 25px;
+        padding: 10px;
+        box-shadow: 0px 0px 8px 5px #060606;
+        border-left: 2px solid #cc7f39;
+        opacity: 0.8;
 
-      h1 {
-        font-size: 16px;
-      }
-
-      strong {
-        color: #cc7f39;
-
-        > span {
-          color: lightgray;
+        h1 {
+          font-size: 16px;
         }
-      }
+
+        strong {
+          color: #cc7f39;
+
+          > span {
+            color: lightgray;
+          }
+        }
       }
       p {
         margin: 10px 0;
@@ -59,5 +59,4 @@ export const Container = styled.div`
       }
     }
   }
-
-`
+`;
