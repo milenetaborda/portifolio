@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   background: #030303;
   padding: 65px 15vw 50px;
-  min-height: 100vh;
+  min-height: 85vh;
 
   h3 {
     text-transform: uppercase;
@@ -11,7 +11,7 @@ export const Container = styled.div`
 
   ul {
     display: grid;
-    margin: 40px 0;
+    margin: 40px 0 0;
     grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
 
     li {

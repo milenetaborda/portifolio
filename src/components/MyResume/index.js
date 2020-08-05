@@ -25,7 +25,7 @@ export default function MyResume() {
               tanto para a gestão do seu próprio negócio quanto para a atuação
               nas organizações. O curso oferece ao aluno uma formação crítica,
               reflexiva, sustentável e independente, aliando o conteúdo teórico
-              a uma gama de aplicações práticas.{" "}
+              a uma gama de aplicações práticas.
             </p>
           </div>
         </li>
@@ -45,7 +45,7 @@ export default function MyResume() {
               apenas projetando sistemas de software e hardware, mas
               desenvolvendo soluções com tecnologias voltadas ao uso de redes
               neurais (inteligência artificial), estatística, eletrônica e
-              programação.{" "}
+              programação.
             </p>
           </div>
         </li>
@@ -63,7 +63,7 @@ export default function MyResume() {
               A Labenu é uma startup que forma Desenvolvedores Web Full Stack
               prontos para o mercado de trabalho. São mais de 1000 horas de
               aprendizagem e desenvolvimento de projetos em Frontend, Backend e
-              DevOps
+              DevOps.
             </p>
           </div>
         </li>
