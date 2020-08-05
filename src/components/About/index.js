@@ -16,7 +16,7 @@ export default function About() {
        
           <strong>NodeJS | MySQL | HTML | CSS | Javascript</strong>
        </main>
-      <button type="submit">Download CV</button>
+      <button type="submit" onClick={() => window.open('https://github.com/milenetaborda/portifolio/files/5025537/CV.-Milene.Taborda.pdf', '_blank')}>Download CV</button>
      </div>
     </Container>
   )

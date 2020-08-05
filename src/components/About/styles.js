@@ -43,6 +43,7 @@ export const Container = styled.div`
     border-radius: 12px;
     background: linear-gradient(to right, #c79864, #cc7f39);
     width: 170px;
+    cursor: pointer;
   }
 
   @media only screen and (max-width: 1018px) {

@@ -1,21 +1,27 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  max-height: 100vh;
-  min-height: 100vh;
-  padding: 65px 10vw 50px;
+  min-height: 85%;
+  padding: 65px 10vw 0 ;
+  text-align: center;
+
+  h3, h1 {
+    text-align: left;
+  }
 
   h3 {
     text-transform: uppercase;
   }
 
   div {
-    ul {
       display: flex;
       justify-content: center;
-      margin: 35px auto 0; 
-      /* width: 480px;  */
-      width: 32vw;
+
+     ul {
+      display: flex;
+      justify-content: center;
+      margin: 35px  25vw 0; 
+      min-width: 480px; 
       padding: 8px 10px;
       border-radius: 24px;
       box-shadow: 1px 1px 10px 5px #191919;
@@ -49,6 +55,7 @@ export const Container = styled.div`
         overflow: hidden;
 
         img {
+          background: #fff;
           width: 200px;
           height: 200px;
           transition: transform 2s;
@@ -66,6 +73,7 @@ export const Container = styled.div`
         transition: transform .5s;
 
         .content {
+          display: block;
           position: absolute;
           top: 50%;
           transform: translateY(-50%);
@@ -103,12 +111,11 @@ export const Container = styled.div`
   > button {
     border: none;
     padding: 8px 12px;
+    margin-bottom: 3vh;
     border-radius: 12px;
     background: linear-gradient(to right, #c79864, #cc7f39);
     width: 170px;
     font-weight: 600;
-    margin: 10px auto;
-    margin-left: 29vw;
     color: #fff;
     cursor: pointer;
 
